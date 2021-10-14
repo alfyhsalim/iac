@@ -1,6 +1,7 @@
 provider "aws" {
   access_key = var.ACCESS_KEY
   secret_key = var.SECRET_KEY
+  session_token = var.AWS_SESSION_TOKEN
   region     = var.region
 }
 
