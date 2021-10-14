@@ -10,6 +10,10 @@ variable "SECRET_KEY" {
   description = "AWS secret key credentials"
 }
 
+variable "AWS_SESSION_TOKEN" {
+  description = "AWS Session key credentials"
+}
+
 variable "region" {
   description = "The region where the resources are created."
   default     = "ap-southeast-1"
